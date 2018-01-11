@@ -6,8 +6,6 @@ a {
 
 .link {
 	border-bottom: 2px solid #D04172;
-	display: flex;
-	flex-direction: column;
 	margin-bottom: 10px;
 	text-decoration: none;
 }
@@ -17,6 +15,7 @@ a {
 	font-size: 40px;
 	font-weight: normal;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .links {
@@ -28,10 +27,9 @@ a {
 
 @media (min-width: 720px) {
 	.links {
-		align-self: center;
-		flex-direction: row;
+		margin: 0 auto;
 	}
 	.link-text {
-		align-self: flex-end;
+		text-align: left;
 	}
 }
