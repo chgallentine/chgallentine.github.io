@@ -7,11 +7,10 @@
 }
 
 .links {
-  border:2px solid green;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;    
-  align-self: flex-end;
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+  justify-content: space-around;    
   width: 100%
 }
 
@@ -25,6 +24,6 @@
   .links {
     flex-direction: row;
     align-self: center;
-    width: 75%;
+    width: 100%;
   }
 }
