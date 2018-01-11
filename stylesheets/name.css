@@ -42,9 +42,9 @@
 	font-family: "Helvetica Neue", serif;	
 	font-size: 48px;
 	position: absolute;
-	right: -70px;
+	right: -65px;
 	text-align: center;
-	top: -40px;
+	top: -35px;
 	transform: rotate(35deg);
 }
 
@@ -79,8 +79,8 @@
 	}
 
 	.name-middle {
-		right: -100px;
-		top: -80px;
+		right: -90px;
+		top: -70px;
 	}
 
 	.name-james {
