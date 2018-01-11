@@ -8,7 +8,7 @@
 .links {
   display: flex;
   flex-direction: column;    
-  align-self: flex-end;
+  align-self: flex-start;
   max-width: 320px;
   width: 100%
 }
@@ -22,7 +22,7 @@
   
   .links {
     flex-direction: row;
-    align-self: center;
+    justify-content: center;
   }
 }
 
