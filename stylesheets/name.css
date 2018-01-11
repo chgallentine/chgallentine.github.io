@@ -10,6 +10,12 @@
 	margin-bottom: -60px;
 }
 
+.name-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
 .name-full {
 	margin: 50px auto;
 	position: relative;
