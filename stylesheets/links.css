@@ -1,30 +1,30 @@
 .link {
-	align-self: flex-end;
-  border-bottom: 2px solid #D04172;
   color: #D04172;
+  border-bottom: 2px solid #D04172;
+  align-self: flex-end;
   text-decoration: none;
   width: 60%;
 }
 
 .links {
-	align-self: flex-end;
+  border:2px solid green;
+  justify-content: space-around;
   display: flex;
   flex-direction: column;    
-  justify-content: space-around;
+  align-self: flex-end;
   width: 100%
 }
 
 @media (min-width: 720px) {
   .link {
-  	margin: 0 50px;
     text-align: center;
+    margin: 0 50px;
     width: 33%;
   }
   
   .links {
-  	align-self: center;
     flex-direction: row;
+    align-self: center;
     width: 75%;
   }
 }
-
