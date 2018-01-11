@@ -22,8 +22,9 @@
   }
   
   .links {
+  	align-self: center;
     flex-direction: row;
-    align-self: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 75%;
   }
 }
