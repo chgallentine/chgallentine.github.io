@@ -32,6 +32,6 @@ a {
 		flex-direction: row;
 	}
 	.link-text {
-		align-self: end;
+		align-self: flex-end;
 	}
 }
