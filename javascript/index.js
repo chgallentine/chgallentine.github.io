@@ -1,9 +1,14 @@
-const resumeDownload = document.getElementById("resume-download");
 
-resumeDownload.addEventListener("mouseover", () => {
-	resumeDownload.innerHTML = "Download PDF";
-});
+downloadResume = () => {
+	const resumeDownload = document.getElementById("resume-download");
 
-resumeDownload.addEventListener("mouseout", () => {
-	resumeDownload.innerHTML = "Resume";
-});
+	resumeDownload.addEventListener("mouseover", () => {
+		resumeDownload.innerHTML = "Download";
+	});
+
+	resumeDownload.addEventListener("mouseout", () => {
+		resumeDownload.innerHTML = "Resume";
+	});
+}
+
+downloadResume();
