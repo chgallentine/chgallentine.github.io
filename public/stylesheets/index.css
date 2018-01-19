@@ -77,9 +77,9 @@ body {
 	float: right;
 	font-family: "Helvetica Neue", serif;	
 	position: absolute;
-	right: -35px;
+	right: -15px;
 	text-align: center;
-	top: -5px;
+	top: -25px;
 	transform: rotate(35deg);
 }
 
