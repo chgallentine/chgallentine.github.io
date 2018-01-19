@@ -41,7 +41,7 @@ body {
 }
 
 .name-charlie {
-	font-size: 56px;
+	font-size: 46px;
 	font-weight: normal;
 	margin-bottom: -60px;
 }
@@ -59,7 +59,7 @@ body {
 
 .name-gallentine {
 	font-family: "Helvetica Neue", serif;	
-	font-size: 62px;
+	font-size: 52px;
 	font-weight: bold;
 	margin-bottom: -2px;
 	margin-left: 10px;
@@ -67,7 +67,7 @@ body {
 
 .name-james {
 	font-family: "Helvetica Neue", serif;	
-	font-size: 56px;
+	font-size: 46px;
 	font-weight: bold;
 	margin-bottom: -50px;
 }
@@ -76,7 +76,6 @@ body {
 	color: #D04172;
 	float: right;
 	font-family: "Helvetica Neue", serif;	
-	font-size: 36px;
 	position: absolute;
 	right: -55px;
 	text-align: center;
