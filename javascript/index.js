@@ -20,6 +20,7 @@ function setColor(e) {
   let i;
   const color1 = document.getElementsByClassName("color-1");
   const color2 = document.getElementsByClassName("color-2");
+  const color2Link = document.getElementsByClassName("color-2-link");
   
   x = e.clientX;
   y = e.clientY;
@@ -36,6 +37,10 @@ function setColor(e) {
 
   for(i = 0; i < color2.length; i++) {
   	color2[i].style.color = `rgb(${(255-red+39) % 255}, ${255-green}, ${(255-blue-94)%255})`;
+  }
+
+  for(i = 0; i < color2Link.length; i++) {
+  	color2Link[i].style.borderBottomColor = `rgb(${(255-red+39) % 255}, ${255-green}, ${(255-blue-94)%255})`;
   }
 }
 
