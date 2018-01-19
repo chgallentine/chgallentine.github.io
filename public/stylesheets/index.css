@@ -77,9 +77,9 @@ body {
 	float: right;
 	font-family: "Helvetica Neue", serif;	
 	position: absolute;
-	right: -55px;
+	right: -35px;
 	text-align: center;
-	top: -25px;
+	top: -5px;
 	transform: rotate(35deg);
 }
 
@@ -143,8 +143,8 @@ body {
 	}
 
 	.name-middle {
-		right: -60px;
-		top: -40px;
+		right: -80px;
+		top: -60px;
 	}
 
 	.name-james {
