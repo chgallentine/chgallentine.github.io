@@ -36,11 +36,11 @@ function setColor(e) {
   }
 
   for(i = 0; i < color2.length; i++) {
-  	color2[i].style.color = `rgb(${(255-red+39) % 255}, ${255-green}, ${(255-blue-94)%255})`;
+  	color2[i].style.color = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
 
   for(i = 0; i < color2Link.length; i++) {
-  	color2Link[i].style.borderBottomColor = `rgb(${(255-red+39) % 255}, ${255-green}, ${(255-blue-94)%255})`;
+  	color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
 }
 
