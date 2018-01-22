@@ -58,13 +58,13 @@ function setColor(e) {
   }
 }
 
-$("#about")).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+// $("#about")).on('click', 'a[href^="#"]', function (event) {
+//     event.preventDefault();
 
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
+//     $('html, body').animate({
+//         scrollTop: $($.attr(this, 'href')).offset().top
+//     }, 500);
+// });
 
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
