@@ -1,6 +1,7 @@
 
 downloadResume = () => {
 	const resumeDownload = document.getElementById("resume-download");
+  const downloadButton = document.getElementById("download");
 
 	resumeDownload.addEventListener("mouseover", () => {
 		resumeDownload.innerHTML = "Download";
@@ -9,6 +10,11 @@ downloadResume = () => {
 	resumeDownload.addEventListener("mouseout", () => {
 		resumeDownload.innerHTML = "Resume";
 	});
+
+  if (confirm("Download Charlie's resume?")) {
+    downloadButton.href = "public/Resume.pdf";
+  }
+  return false;
 }
 
 function setColor(e) {
