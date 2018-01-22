@@ -1,15 +1,20 @@
+$('.scrollLink').click( function() {
+  $('html, body').animate({
+    scrollTop: $($(this).attr("href")).offset().top
+  }, 400);
+});
 
 changeResumeText = () => {
-	const resumeDownload = document.getElementById("resume-download");
+  const resumeDownload = document.getElementById("resume-download");
   const downloadButton = document.getElementById("download");
 
-	resumeDownload.addEventListener("mouseover", () => {
-		resumeDownload.innerHTML = "Download";
-	});
+  resumeDownload.addEventListener("mouseover", () => {
+    resumeDownload.innerHTML = "Download";
+  });
 
-	resumeDownload.addEventListener("mouseout", () => {
-		resumeDownload.innerHTML = "Resume";
-	});
+  resumeDownload.addEventListener("mouseout", () => {
+    resumeDownload.innerHTML = "Resume";
+  });
 }
 
 downloadConfirmation = (e) => {
@@ -42,25 +47,18 @@ function setColor(e) {
   document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 
   for(i = 0; i < color1.length; i++) {
-  	color1[i].style.color = `rgb(${(255-red)}, ${255-green}, ${(255-blue)})`;
+    color1[i].style.color = `rgb(${(255-red)}, ${255-green}, ${(255-blue)})`;
   }
 
   for(i = 0; i < color2.length; i++) {
-  	color2[i].style.color = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
+    color2[i].style.color = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
 
   for(i = 0; i < color2Link.length; i++) {
-  	color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
+    color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
 }
 
-$('.scrollLink').click( function() {
- $('html, body').animate({
-    scrollTop: $($(this).attr("href")).offset().top
- }, 400);
-});
-
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
-document.getElementsById("home-page")[0].addEventListener("click", setColor);
-
+document.getElementById("home-page").addEventListener("click", setColor);
