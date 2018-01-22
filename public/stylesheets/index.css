@@ -50,6 +50,7 @@ footer > h4 {
  */
 
 nav {
+	color: var(--color-2);
 	display: flex;
 	flex-direction: row;
 	position: fixed;
