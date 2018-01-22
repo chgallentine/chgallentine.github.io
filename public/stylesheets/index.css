@@ -11,13 +11,12 @@ body {
 	Section Section Section Section Section 
 	------------------------------------------
  */
-.home-page {
-	max-height: 1vh;
+section {
+	min-height: 40em;
 }
 
 .about-page {
-	height: 1vh;
-	background-color: pink;
+	background-color: pink !important;
 }
 
 
