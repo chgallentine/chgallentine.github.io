@@ -62,5 +62,5 @@ $('.scrollLink').click( function() {
 
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
-document.getElementsByClassName("home-page")[0].addEventListener("click", setColor);
+document.getElementsById("home-page")[0].addEventListener("click", setColor);
 
