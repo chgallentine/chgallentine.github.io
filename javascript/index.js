@@ -14,10 +14,9 @@ changeResumeText = () => {
 
 downloadConfirmation = () => {
   const downloadButton = document.getElementById("download");
-  if (confirm("Download Charlie's resume?")) {
+  if (confirm("Download Charlie's resume?") === true) {
     downloadButton.href = "public/Resume.pdf";
   }
-  return false;
 }
 
 function setColor(e) {
