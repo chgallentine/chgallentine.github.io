@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
+:root {
+	--main-background-color: #df8333;
+	--color-2: #D04172;
+	--color-1: #A941D0;
+}
+
 body {
-	background-color: #df8333;
+	background-color: var(--main-background-color);
 	margin: 0;
 	padding: 0;
 }
+
 
 /*
 	------------------------------------------
@@ -32,8 +39,8 @@ footer {
 	------------------------------------------
  */
 .link {
-  color: #D04172;
-  border-bottom: 2px solid #D04172;
+  color: var(--color-2);
+  border-bottom: 2px solid var(--color-2);
   align-self: flex-end;
   font-family: "Helvetica Nue";
   text-decoration: none;
@@ -93,7 +100,7 @@ footer {
 }
 
 .name-middle {
-	color: #D04172;
+	color: var(--color-2);
 	float: right;
 	font-family: "Helvetica Neue", serif;	
 	position: absolute;
@@ -104,7 +111,7 @@ footer {
 }
 
 .name-proper {
-	color: #A941D0;
+	color: var(--color-1);
 }
 
 .name-shadow {
