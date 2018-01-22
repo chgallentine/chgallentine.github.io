@@ -21,9 +21,6 @@ downloadConfirmation = (e) => {
   return false;
 }
 
-smoothScroll = (scrollTo) => {
-  
-}
 
 function setColor(e) {
   let x;
@@ -58,13 +55,6 @@ function setColor(e) {
   }
 }
 
-// $("#about")).on('click', 'a[href^="#"]', function (event) {
-//     event.preventDefault();
-
-//     $('html, body').animate({
-//         scrollTop: $($.attr(this, 'href')).offset().top
-//     }, 500);
-// });
 
 changeResumeText();
 document.getElementById("about").addEventListener("click", function() {
