@@ -69,7 +69,7 @@ function setColor(e) {
 // });
 
 changeResumeText();
-document.getElementById("about").addEventListener("click", scrollTo("about"))
+document.getElementById("about").addEventListener("click", smoothScroll("about"))
 document.getElementById("download").addEventListener("click", downloadConfirmation);
 document.getElementsByClassName("home-page")[0].addEventListener("click", setColor);
 
