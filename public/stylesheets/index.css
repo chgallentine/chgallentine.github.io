@@ -32,6 +32,10 @@ footer {
 	justify-content: center;
 }
 
+footer.h1 {
+	color: var(--color-1);
+}
+
 
 /*
 	------------------------------------------
