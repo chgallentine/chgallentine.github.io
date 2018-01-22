@@ -56,7 +56,7 @@ function setColor(e) {
 
 $('.scrollLink').click( function() {
  $('html, body').animate({
-    scrollTop: $(this.href).offset().top
+    scrollTop: $($(this).attr("href")).offset().top
  }, 400);
 });
 
