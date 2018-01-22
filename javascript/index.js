@@ -17,6 +17,7 @@ downloadConfirmation = () => {
   if (confirm("Download Charlie's resume?") === true) {
     downloadButton.href = "public/Resume.pdf";
   }
+  return false;
 }
 
 function setColor(e) {
