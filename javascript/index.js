@@ -54,11 +54,11 @@ function setColor(e) {
   }
 }
 
-$('.scrollLink').click( function() {
-     $('html, body').animate({
-          scrollTop: $('#about').offset().top
-     }, 400);
-});
+// $('.scrollLink').click( function() {
+//      $('html, body').animate({
+//           scrollTop: $('#about').offset().top
+//      }, 400);
+// });
 
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
