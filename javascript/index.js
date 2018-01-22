@@ -46,3 +46,4 @@ function setColor(e) {
 
 downloadResume();
 document.addEventListener("click", setColor);
+
