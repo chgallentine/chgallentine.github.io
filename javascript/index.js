@@ -21,6 +21,9 @@ downloadConfirmation = (e) => {
   return false;
 }
 
+document.getElementById('about').scrollIntoView({ 
+  behavior: 'smooth' 
+});
 
 function setColor(e) {
   let x;
@@ -55,13 +58,15 @@ function setColor(e) {
   }
 }
 
+// $("#about")).on('click', 'a[href^="#"]', function (event) {
+//     event.preventDefault();
+
+//     $('html, body').animate({
+//         scrollTop: $($.attr(this, 'href')).offset().top
+//     }, 500);
+// });
 
 changeResumeText();
-document.getElementById("about").addEventListener("click", function() {
-  document.getElementById("about").scrollIntoView({ 
-    behavior: 'smooth' 
-  });
-})
 document.getElementById("download").addEventListener("click", downloadConfirmation);
 document.getElementsByClassName("home-page")[0].addEventListener("click", setColor);
 
