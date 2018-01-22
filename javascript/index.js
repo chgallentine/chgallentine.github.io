@@ -21,9 +21,11 @@ downloadConfirmation = (e) => {
   return false;
 }
 
-document.getElementById('about').scrollIntoView({ 
-  behavior: 'smooth' 
-});
+smoothScroll = (scrollTo) => {
+  document.getElementById(scrollTo).scrollIntoView({ 
+    behavior: 'smooth' 
+  });
+}
 
 function setColor(e) {
   let x;
@@ -67,6 +69,7 @@ function setColor(e) {
 // });
 
 changeResumeText();
+document.getElementById("about").addEventListener("click", scrollTo("about"))
 document.getElementById("download").addEventListener("click", downloadConfirmation);
 document.getElementsByClassName("home-page")[0].addEventListener("click", setColor);
 
