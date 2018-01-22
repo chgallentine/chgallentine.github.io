@@ -55,9 +55,9 @@ function setColor(e) {
 }
 
 $('.scrollLink').click( function() {
-     $('html, body').animate({
-          scrollTop: $('#about').offset().top
-     }, 400);
+ $('html, body').animate({
+    scrollTop: $(this.href).offset().top
+ }, 400);
 });
 
 changeResumeText();
