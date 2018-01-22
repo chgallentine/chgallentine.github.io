@@ -58,7 +58,7 @@ function setColor(e) {
   }
 }
 
-$(document).on('click', 'a[href^="#"]', function (event) {
+$("#about")).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
     $('html, body').animate({
