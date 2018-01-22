@@ -12,11 +12,12 @@ changeResumeText = () => {
 	});
 }
 
-downloadConfirmation = () => {
+downloadConfirmation = (e) => {
   const downloadButton = document.getElementById("download");
   if (confirm("Download Charlie's resume?") === true) {
     downloadButton.href = "public/Resume.pdf";
   }
+  e.stopPropagation();
   return false;
 }
 
