@@ -32,7 +32,7 @@ footer {
 	justify-content: center;
 }
 
-footer.h1 {
+footer > h4 {
 	color: var(--color-1);
 }
 
