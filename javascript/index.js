@@ -45,5 +45,5 @@ function setColor(e) {
 }
 
 downloadResume();
-document.addEventListener("click", setColor);
+document.getElementsByClassName("home-page")[0].addEventListener("click", setColor);
 
