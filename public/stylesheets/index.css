@@ -41,6 +41,17 @@ footer > h4 {
 
 /*
 	------------------------------------------
+	NavBar NavBar NavBar NavBar NavBar NavBar   
+	------------------------------------------
+ */
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+/*
+	------------------------------------------
 	Links Links Links Links Links Links Links
 	------------------------------------------
  */
