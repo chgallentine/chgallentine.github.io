@@ -6,6 +6,12 @@ body {
 	padding: 0;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*
 	------------------------------------------
 	Section Section Section Section Section 
