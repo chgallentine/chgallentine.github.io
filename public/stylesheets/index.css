@@ -6,12 +6,6 @@ body {
 	padding: 0;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /*
 	------------------------------------------
 	Section Section Section Section Section 
@@ -23,6 +17,12 @@ section {
 
 .about-page {
 	background-color: pink !important;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 
