@@ -52,6 +52,8 @@ footer > h4 {
 nav {
 	display: flex;
 	flex-direction: row;
+	position: fixed;
+	top: 0;
 }
 
 /*
