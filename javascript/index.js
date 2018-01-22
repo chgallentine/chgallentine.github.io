@@ -58,7 +58,7 @@ function setColor(e) {
 
 changeResumeText();
 document.getElementById("about").addEventListener("click", function() {
-  document.getElementById(scrollTo).scrollIntoView({ 
+  document.getElementById("about").scrollIntoView({ 
     behavior: 'smooth' 
   });
 })
