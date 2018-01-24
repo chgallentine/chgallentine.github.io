@@ -24,11 +24,11 @@ section {
 }
 
 .about-page {
-	background-color: pink !important;
+	background-color: var(--background-color) !important;
 }
 
 .media-page {
-	background-color: green !important;
+	background-color: var(--background-color) !important;
 }
 
 footer {
