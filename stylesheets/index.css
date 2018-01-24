@@ -75,6 +75,7 @@ nav > a {
   border-bottom: 2px solid var(--color-2);
   align-self: flex-end;
   font-family: "Helvetica Nue";
+  padding-bottom: 0;
   text-decoration: none;
   transition: border-bottom 0.4s ease;
   width: 60%;
@@ -84,8 +85,8 @@ nav > a {
 	align-self: flex-end;
 	display: flex;
 	flex-direction: column;
-  	justify-content: space-around;    
-  	width: 100%
+	justify-content: space-around;    
+	width: 100%
 }
 
 /*
