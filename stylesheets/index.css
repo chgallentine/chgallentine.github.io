@@ -142,9 +142,9 @@ nav > a > h5 {
 	float: right;
 	font-family: "Helvetica Neue", serif;	
 	position: absolute;
-	right: -30px;
+	right: -40px;
 	text-align: center;
-	top: -20px;
+	top: -15px;
 	transform: rotate(35deg);
 }
 
