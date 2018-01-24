@@ -55,4 +55,4 @@ function setColor(e) {
 
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
-document.getElementById("home-page").addEventListener("click", setColor);
+document.getElementsByClassName("body")[0].addEventListener("click", setColor);
