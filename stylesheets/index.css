@@ -58,7 +58,7 @@ nav {
 }
 
 nav > a {
-	border-bottom: 1px solid var(-color-2)
+	border-bottom: 1px solid var(-color-2);
 	color: var(--color-2);
 	padding-left: 20px;
 	text-decoration: none;
