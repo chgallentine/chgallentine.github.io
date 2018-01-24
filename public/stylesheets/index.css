@@ -57,6 +57,10 @@ nav {
 	top: 0;
 }
 
+nav > a > h5 {
+	color: var(--color-2);
+}
+
 /*
 	------------------------------------------
 	Links Links Links Links Links Links Links
