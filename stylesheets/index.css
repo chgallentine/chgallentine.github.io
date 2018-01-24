@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-	--main-background-color: #df8333;
-	--color-2: #D04172;
-	--color-1: #A941D0;
+	--main-background-color: white; /*#df8333*/
+	--color-2: black; /*#D04172*/
+	--color-1: black; /*#A941D0*/
 }
 
 body {
