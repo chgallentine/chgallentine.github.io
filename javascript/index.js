@@ -1,9 +1,3 @@
-$('.scrollLink').click( function() {
-  $('html, body').animate({
-    scrollTop: $($(this).attr("href")).offset().top
-  }, 400);
-});
-
 changeResumeText = () => {
   const resumeDownload = document.getElementById("resume-download");
   const downloadButton = document.getElementById("download");
