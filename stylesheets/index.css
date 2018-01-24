@@ -57,8 +57,9 @@ nav {
 	top: 0;
 }
 
-nav > a > h5 {
+nav > a {
 	color: var(--color-2);
+	text-decoration: none;
 }
 
 /*
