@@ -4,18 +4,6 @@ $('.scrollLink').click( function() {
   }, 400);
 });
 
-function bounceName() {
-  $(".name-full").animate({
-    top: +=20px;
-  });
-  $(".name-full").animate({
-    top: -=20px;
-  });
-  bounceName();
-}
-
-
-
 changeResumeText = () => {
   const resumeDownload = document.getElementById("resume-download");
   const downloadButton = document.getElementById("download");
@@ -72,6 +60,5 @@ function setColor(e) {
 }
 
 changeResumeText();
-bounceName();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
 document.getElementsByTagName("body")[0].addEventListener("click", setColor);
