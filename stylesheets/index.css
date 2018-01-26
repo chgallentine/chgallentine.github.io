@@ -111,7 +111,7 @@ a {
 	text-decoration: none;
 }
 
-a::active {
+a::hover {
 	color: #F6F6F6;
 }
 
