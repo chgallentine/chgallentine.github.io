@@ -110,6 +110,10 @@ a {
 	text-decoration: none;
 }
 
+a::active {
+	color: #F6F6F6;
+}
+
 .media-link {
 	color: #444;
 	display: block;
