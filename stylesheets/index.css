@@ -42,6 +42,7 @@ section {
 }
 
 #media-page > .section-content {
+	display: flex;
 	justify-content: space-around;
 }
 
