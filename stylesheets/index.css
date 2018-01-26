@@ -4,6 +4,7 @@
 	--main-background-color: white; /*#df8333*/
 	--color-2: black; /*#D04172*/
 	--color-1: black; /*#A941D0*/
+	--font-main: "Helvetica Neue", serif;
 }
 
 body {
@@ -50,6 +51,9 @@ footer > h4 {
 	transition: color 0.4s ease;
 }
 
+p {
+	font-family: var(--font-main);
+}
 
 /*
 	------------------------------------------
@@ -66,7 +70,7 @@ nav {
 }
 
 nav > a {
-	border-bottom: 1px solid var(-color-2);
+	border-bottom: 1px solid var(--color-2);
 	color: var(--color-2);
 	padding-left: 20px;
 	text-decoration: none;
@@ -100,7 +104,7 @@ img {
   color: var(--color-2);
   border-bottom: 2px solid var(--color-2);
   align-self: flex-end;
-  font-family: "Helvetica Nue";
+  font-family: var(--font-main);
   padding-bottom: 0;
   text-decoration: none;
   transition: border-bottom 0.4s ease;
@@ -145,7 +149,7 @@ img {
 }
 
 .name-gallentine {
-	font-family: "Helvetica Neue", serif;	
+	font-family: var(--font-main);	
 	font-size: 52px;
 	font-weight: bold;
 	margin-bottom: -2px;
@@ -153,7 +157,7 @@ img {
 }
 
 .name-james {
-	font-family: "Helvetica Neue", serif;	
+	font-family: var(--font-main);	
 	font-size: 46px;
 	font-weight: bold;
 	margin-bottom: -50px;
@@ -162,7 +166,7 @@ img {
 .name-middle {
 	color: var(--color-2);
 	float: right;
-	font-family: "Helvetica Neue", serif;	
+	font-family: var(--font-main);	
 	position: absolute;
 	right: -40px;
 	text-align: center;
