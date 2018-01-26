@@ -106,6 +106,9 @@ img {
 	Links Links Links Links Links Links Links
 	------------------------------------------
  */
+a {
+	text-decoration: none;
+}
 
 .media-link {
 	color: #444;
