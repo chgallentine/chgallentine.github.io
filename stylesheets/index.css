@@ -43,6 +43,7 @@ section {
 
 #media-page > .section-content {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 }
 
