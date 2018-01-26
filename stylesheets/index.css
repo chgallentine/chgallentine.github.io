@@ -107,6 +107,7 @@ img {
  */
 
 .media-link {
+	display: inline-block;
 	font-size: 5em;
 }
 
