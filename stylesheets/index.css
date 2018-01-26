@@ -21,14 +21,22 @@ body {
  */
 section {
 	min-height: 40em;
+	border-bottom: 2px solid var(--color-1);
 }
 
 .about-page {
-	background-color: var(--background-color) !important;
+	background-color: var(--background-color) !important;	
 }
+
 
 .media-page {
 	background-color: var(--background-color) !important;
+}
+
+
+.section-content {
+	margin: 50px auto;
+	width: 60%;
 }
 
 footer {
@@ -67,6 +75,20 @@ nav > a {
 
 nav > a > h5 {
 	color: inherit;
+}
+
+/*
+	------------------------------------------
+	Img Img Img Img Img Img Img Img Img Img Img 
+	------------------------------------------
+ */
+img {
+	border-radius: 10px;
+	box-shadow: 4px 4px 3px #7B7676;
+	float: left;
+	height: auto;
+	margin: 18px;
+	max-width: 150px;
 }
 
 /*

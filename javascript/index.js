@@ -1,3 +1,4 @@
+/*jshint esversion:6*/
 $('.scrollLink').click( function() {
   $('html, body').animate({
     scrollTop: $($(this).attr("href")).offset().top
@@ -15,7 +16,7 @@ changeResumeText = () => {
   resumeDownload.addEventListener("mouseout", () => {
     resumeDownload.innerHTML = "Resume";
   });
-}
+};
 
 downloadConfirmation = (e) => {
   e.stopPropagation();
@@ -24,25 +25,27 @@ downloadConfirmation = (e) => {
     downloadButton.href = "public/Resume.pdf";
   }
   return false;
-}
+};
 
-function setColor(e) {
-  let x;
-  let y;
-  let red = 223;
-  let green = 131;
-  let blue = 51;
-  let i;
+setColor = (e) => {
+  let x, y, i;
+  let red = 223, green = 131, blue = 51;
   const color1 = document.getElementsByClassName("color-1");
   const color2 = document.getElementsByClassName("color-2");
   const color2Link = document.getElementsByClassName("color-2-link");
   
   x = e.clientX;
   y = e.clientY;
+
+  const colorCombo = [
+    (x + y) % 255,
+    x % 255,
+    y % 255
+  ];
   
-  red = (x + y) % 255;
-  green = x % 255;
-  blue = y % 255;
+  red = colorCombo[0];
+  green = colorCombo[1];
+  blue = colorCombo[2];
   
   document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 
@@ -57,7 +60,7 @@ function setColor(e) {
   for(i = 0; i < color2Link.length; i++) {
     color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
-}
+};
 
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
