@@ -41,6 +41,10 @@ section {
 	width: 60%;
 }
 
+#media-page > .section-content {
+	justify-content: space-around;
+}
+
 footer {
 	display: flex;
 	flex-direction: row;
