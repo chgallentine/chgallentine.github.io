@@ -100,6 +100,11 @@ img {
 	Links Links Links Links Links Links Links
 	------------------------------------------
  */
+
+.fa {
+	font-size: 4em;
+}
+
 .link {
   color: var(--color-2);
   border-bottom: 2px solid var(--color-2);
