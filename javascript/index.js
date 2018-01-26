@@ -42,10 +42,14 @@ setColor = (e) => {
     x % 255,
     y % 255
   ];
+
+  let one = randOfThree();
+  let two = Math.abs(one-3);
+  let three = 3 - two - one;
   
-  red = colorCombo[0];
-  green = colorCombo[1];
-  blue = colorCombo[2];
+  red = colorCombo[one];
+  green = colorCombo[two];
+  blue = colorCombo[three];
   
   document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 
@@ -60,6 +64,10 @@ setColor = (e) => {
   for(i = 0; i < color2Link.length; i++) {
     color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
+};
+
+randOfThree = () => {
+  return Math.floor(Math.random()*3);
 };
 
 changeResumeText();
