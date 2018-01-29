@@ -1,9 +1,4 @@
 /*jshint esversion:6*/
-$('.scrollLink').click( function() {
-  $('html, body').animate({
-    scrollTop: $($(this).attr("href")).offset().top
-  }, 400);
-});
 
 changeResumeText = () => {
   const resumeDownload = document.getElementById("resume-download");
@@ -72,3 +67,13 @@ randOfThree = () => {
 changeResumeText();
 document.getElementById("download").addEventListener("click", downloadConfirmation);
 document.getElementsByTagName("body")[0].addEventListener("click", setColor);
+
+/*
+  JQuery Functions
+ */
+
+$('.scrollLink').click( function() {
+  $('html, body').animate({
+    scrollTop: $($(this).attr("href")).offset().top
+  }, 400);
+});
