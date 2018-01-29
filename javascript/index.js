@@ -7,7 +7,6 @@ $('.scrollLink').click( function() {
 
 changeResumeText = () => {
   const resumeDownload = document.getElementById("resume-download");
-  const downloadButton = document.getElementById("download");
 
   resumeDownload.addEventListener("mouseover", () => {
     resumeDownload.innerHTML = "Download";

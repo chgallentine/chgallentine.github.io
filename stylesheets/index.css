@@ -12,7 +12,7 @@ body {
 	background-color: var(--main-background-color);
 	margin: 0;
 	padding: 0;
-	transition: background-color 0.4s ease;
+	transition: background-color 0.4s ease !important;
 }
 
 /*
@@ -98,15 +98,17 @@ a {
 	text-decoration: none;
 }
 
-a::hover {
-	color: #F6F6F6;
+.media-link-container:hover > .media-link {
+	transform: scale(1.5);
 }
 
 .media-link {
 	color: var(--main-background-color);
 	display: block;
 	font-size: 3em;
+	transition: all 0.4s ease;
 }
+
 
 .link {
   color: var(--color-2);
@@ -115,7 +117,7 @@ a::hover {
   font-family: var(--font-main);
   padding-bottom: 0;
   text-decoration: none;
-  transition: border-bottom 0.4s ease;
+	transition: all 0.4s ease;
   width: 60%;
 }
 
@@ -125,6 +127,10 @@ a::hover {
 	flex-direction: column;
 	justify-content: space-around;    
 	width: 100%
+}
+
+.scrollLink:hover > .scrollLink-content {
+	transform: scale(1.5);
 }
 
 /*
@@ -137,12 +143,14 @@ a::hover {
 	font-size: 50px;
 	font-weight: normal;
 	margin-right: 5px;
+	transition: inherit;
 }
 
 .name-charlie {
 	font-size: 46px;
 	font-weight: normal;
 	margin-bottom: -60px;
+	transition: inherit;
 }
 
 .name-container {
@@ -154,6 +162,7 @@ a::hover {
 .name-full {
 	margin: 50px auto;
 	position: relative;
+	transition: color 0.4s ease;
 }
 
 .name-gallentine {
@@ -162,6 +171,7 @@ a::hover {
 	font-weight: bold;
 	margin-bottom: -2px;
 	margin-left: 10px;
+	transition: inherit;
 }
 
 .name-james {
@@ -169,6 +179,7 @@ a::hover {
 	font-size: 46px;
 	font-weight: bold;
 	margin-bottom: -50px;
+	transition: inherit;
 }
 
 .name-middle {
@@ -180,11 +191,12 @@ a::hover {
 	text-align: center;
 	top: -15px;
 	transform: rotate(35deg);
+	transition: inherit;
 }
 
 .name-proper {
 	color: var(--color-1);
-	transition: color 0.4s ease;
+	transition: inherit;
 }
 
 .name-shadow {
@@ -252,6 +264,7 @@ a::hover {
   .media-link {
   	font-size: 6em;
   }
+
   /*
 	------------------------------------------
 	Name Name Name Name Name Name Name Name Name 
