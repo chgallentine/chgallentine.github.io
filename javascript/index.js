@@ -45,7 +45,8 @@ setColor = (e) => {
   green = colorCombo[two];
   blue = colorCombo[three];
   
-  document.body.style.background = `linear-gradient(rgb(${red}, ${green}, ${blue}), rgb(${Math.abs(red-200)}, ${Math.abs(green-200)}, ${Math.abs(blue-200)}))`;
+  document.body.style.background = `linear-gradient(rgb(${red}, ${green}, ${blue}), 
+        rgb(${Math.abs(red-200)}, ${Math.abs(green-200)}, ${Math.abs(blue-200)}))`;
 
   for(i = 0; i < color1.length; i++) {
     color1[i].style.color = `rgb(${(255-red)}, ${255-green}, ${(255-blue)})`;

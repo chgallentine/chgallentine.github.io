@@ -23,7 +23,7 @@ body {
 section {
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 20px 0;
 	margin-bottom: 250px;
 }
 
