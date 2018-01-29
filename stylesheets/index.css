@@ -8,6 +8,7 @@
 }
 
 body {
+	background: linear-gradient(white, black);
 	background-color: var(--main-background-color);
 	margin: 0;
 	padding: 0;
@@ -116,7 +117,7 @@ a::hover {
 }
 
 .media-link {
-	color: #444;
+	color: var(--main-background-color);
 	display: block;
 	font-size: 5em;
 }
