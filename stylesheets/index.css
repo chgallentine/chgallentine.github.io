@@ -225,7 +225,6 @@ a {
 	color: var(--color-2);
 	display: flex;
 	flex-direction: row;
-	max-width: 60px;
 	position: fixed;
 	top: 0;
 }
