@@ -28,8 +28,8 @@ setColor = (e) => {
   const color2 = document.getElementsByClassName("color-2");
   const color2Link = document.getElementsByClassName("color-2-link");
   
-  x = e.clientX;
-  y = e.clientY;
+  x = e.clientX - 100;
+  y = e.clientY - 100;
 
   const colorCombo = [
     (x + y) % 255,
