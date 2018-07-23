@@ -32,9 +32,9 @@ setColor = (e) => {
   y = e.clientY - 100;
 
   const colorCombo = [
-    (x + y) % 255,
-    x % 255,
-    y % 255
+    Math.floor((x + y) * Math.random() * 255) % 255,
+    Math.floor(x * Math.random() * 255) % 255,
+    Math.floor(y * Math.random() * 255) % 255
   ];
 
   let one = randOfThree();
