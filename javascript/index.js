@@ -37,7 +37,7 @@ setColor = (e) => {
     Math.floor(y * Math.random() * 255) % 255
   ];
 
-  let one = randOfThree();
+  let one = Math.floor(Math.random()*3);
   let two = Math.abs(one-3);
   let three = 3 - two - one;
   
@@ -59,10 +59,6 @@ setColor = (e) => {
   for(i = 0; i < color2Link.length; i++) {
     color2Link[i].style.borderBottomColor = `rgb(${(294-red) % 255}, ${255-green}, ${(161-blue)%255})`;
   }
-};
-
-randOfThree = () => {
-  return Math.floor(Math.random()*3);
 };
 
 changeResumeText();
