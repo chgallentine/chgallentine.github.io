@@ -16,11 +16,10 @@ downloadConfirmation = (e) => {
   e.stopPropagation();
   const downloadButton = document.getElementById("download");
   if (confirm("Download Charlie's resume?") === true) {
-    downloadButton.href = "public/Resume.pdf";
+    downloadButton.href = "./public/Resume.pdf";
   } else {
     downloadButton.href = "#";
   }
-  return false;
 };
 
 setColor = (e) => {
