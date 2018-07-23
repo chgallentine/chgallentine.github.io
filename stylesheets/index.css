@@ -115,7 +115,7 @@ h5 {
 
 .link {
   color: var(--color-2);
-  border-bottom: 2px solid var(--color-2);
+  border-bottom: 2px solid var(--main-background-color);
   align-self: flex-end;
   font-family: var(--font-main);
   padding-bottom: 0;
