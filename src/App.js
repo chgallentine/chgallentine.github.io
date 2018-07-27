@@ -20,7 +20,7 @@ class App extends Component {
         color_1: "#EC2140",
         color_2: "#0E1F13",
       },
-      resume_href
+      resume_href: "#",
     };
 
     this.handleSetColor = this.handleSetColor.bind(this);
