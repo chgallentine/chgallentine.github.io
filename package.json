@@ -1,19 +1,24 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "A personal portfolio website",
-  "main": "index.js",
+  "name": "charliegallentine",
+  "homepage": "https://charliegallentine.com/react_charliegallentine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chgallentine/chgallentine.github.io.git"
-  },
-  "author": "James C Gallentine",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chgallentine/chgallentine.github.io/issues"
-  },
-  "homepage": "https://github.com/chgallentine/chgallentine.github.io#readme"
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
