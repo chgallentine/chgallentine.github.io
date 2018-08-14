@@ -24,6 +24,8 @@ class App extends Component {
     };
 
     this.handleSetColor = this.handleSetColor.bind(this);
+    this.handleResumeDownload = this.handleResumeDownload.bind(this);
+
     this.handleSetColor;
   }
 
@@ -54,6 +56,15 @@ class App extends Component {
     });
   }
 
+  handleResumeDownload(event) {
+    event.preventDefault();
+    if (window.confirm("Download Charlie's Resume")) {
+      this.setState({resume_href: "/Resume.pdf"});
+    } else {
+      this.setState({resume_href: "#"});
+    }
+  }
+
   render() {
     document.body.style.backgroundColor = this.state.colors.backgroundColor;
     document.body.style.background = `linear-gradient(
@@ -66,7 +77,11 @@ class App extends Component {
         <NavBar colors={this.state.colors}/>
 
         <section id="home-page">
-          <NameSection colors={this.state.colors}/>
+          <NameSection 
+            colors={this.state.colors} 
+            handleResumeClick={this.handleResumeDownload}
+            resume_href={this.state.resume_href}
+          />
         </section>
 
         <section id="projects">
