@@ -1,8 +1,9 @@
+/* jshint esversion:6 */
 /*
 * @Author: Charlie Gallentine
 * @Date:   2018-07-25 21:30:18
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-07-25 21:31:21
+* @Last Modified time: 2018-08-20 13:48:05
 */
 import React, { Component } from 'react';
 import './ProjectSection.css';
@@ -13,10 +14,68 @@ export default class ProjectSection extends React.Component {
 	}
 
 	render() {
+		const project_list = document.getElementsByClassName("project_thumbnail");
+
+		for (let i = 0; i < project_list.length; i+=1) {
+		  console.log(project_list[i]);
+		  project_list[i].addEventListener("click", function() {
+		    for (let j = 0; j < project_list.length; j+=1) {
+		      if (j != i) {
+		        project_list[j].style.display = "none";
+		        document.getElementsByClassName("page")[0].style.justifyContent = "center";
+		      } else {
+		        this.nextElementSibling.style.display = "inline-block";
+		      }
+		    }
+		  }); 
+		}
+
+		document.addEventListener('click', function (event) {
+		    if (event.target.parentElement.parentElement.parentElement.nodeName == "BODY") {
+		        // Clicked outside the element...
+		      document.getElementsByClassName("page")[0].style.justifyContent = "space-around";
+		      for (let i = 0; i < project_list.length; i+=1) {
+		        project_list[i].style.display = "inline-block";
+		        project_list[i].nextElementSibling.style.display = "none";
+		      }
+		    }
+		}, false);
+
 		return (
-			<div>
-				Project Section
-            </div>
+			<div className="page">
+				{
+					this.props.projects.map(function (current, index) {
+							return (
+								<div className="project">
+							    <div className="project_thumbnail">
+							      <img src={current.image} />
+							      <h1>{current.name}</h1>  
+							    </div>
+							    <div className="project_description">
+							      <p>{current.description}</p>
+							      <a
+							      	href={current.link}>{current.name}</a>
+							    </div>
+							  </div>
+						  );
+					})
+				}
+			</div>
 		);
 	}
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
