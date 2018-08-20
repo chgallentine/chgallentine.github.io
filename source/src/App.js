@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import projects from "./projects.js";
-
 import NavBar from './NavBar/NavBar.js';
 import NameSection from './NameSection/NameSection.js';
 import ContactSection from './ContactSection/ContactSection.js';
@@ -23,12 +21,9 @@ class App extends Component {
         color_2: "#0E1F13",
       },
       resume_href: "#",
-      projects: projects.websites,
     };
 
     this.handleSetColor = this.handleSetColor.bind(this);
-    this.handleResumeDownload = this.handleResumeDownload.bind(this);
-
     this.handleSetColor;
   }
 
@@ -59,15 +54,6 @@ class App extends Component {
     });
   }
 
-  handleResumeDownload(event) {
-    event.preventDefault();
-    if (window.confirm("Download Charlie's Resume")) {
-      this.setState({resume_href: "/Resume.pdf"});
-    } else {
-      this.setState({resume_href: "#"});
-    }
-  }
-
   render() {
     document.body.style.backgroundColor = this.state.colors.backgroundColor;
     document.body.style.background = `linear-gradient(
@@ -80,15 +66,11 @@ class App extends Component {
         <NavBar colors={this.state.colors}/>
 
         <section id="home-page">
-          <NameSection 
-            colors={this.state.colors} 
-            handleResumeClick={this.handleResumeDownload}
-            resume_href={this.state.resume_href}
-          />
+          <NameSection colors={this.state.colors}/>
         </section>
 
         <section id="projects">
-            <ProjectSection colors={this.state.colors} projects={this.state.projects}/>
+            <ProjectSection colors={this.state.colors}/>
         </section>
 
         <section id="media">
