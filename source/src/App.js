@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import projects from "./projects.js";
-
 import NavBar from './NavBar/NavBar.js';
 import NameSection from './NameSection/NameSection.js';
 import ContactSection from './ContactSection/ContactSection.js';
@@ -23,7 +21,6 @@ class App extends Component {
         color_2: "#0E1F13",
       },
       resume_href: "#",
-      projects: projects,
     };
 
     this.handleSetColor = this.handleSetColor.bind(this);
@@ -73,10 +70,7 @@ class App extends Component {
         </section>
 
         <section id="projects">
-            <ProjectSection 
-              colors={this.state.colors} 
-              projects={this.state.projects.websites}
-            />
+            <ProjectSection colors={this.state.colors}/>
         </section>
 
         <section id="media">

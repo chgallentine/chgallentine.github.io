@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:46:34
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-08-20 16:20:35
+* @Last Modified time: 2018-07-26 20:42:47
 */
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
@@ -21,21 +21,21 @@ export default class ContactSection extends React.Component {
 	              	class="link_to_media"
 	                target="_blank"
 	                rel="noopener noreferrer"
-	                style={{color: this.props.colors.backgroundColor}}>
+	                style={{color: this.props.colors.color_1}}>
 	                <FontAwesome name="fa-github" className="fa fa-github" aria-hidden="true" />
 	              </a>
 	              <a href="https://www.linkedin.com/in/charlie-gallentine-0a0424a2/" 
 	              	class="link_to_media"	
 	                target="_blank"
 	                rel="noopener noreferrer"
-	                style={{color: this.props.colors.backgroundColor}}>
+	                style={{color: this.props.colors.color_1}}>
 	                <FontAwesome name="fa-linkedin" className="fa fa-linkedin" size="6em" aria-hidden="true"/>
 	              </a>
 	              <a href="https://www.instagram.com/chgallentine/" 
 	              	class="link_to_media"
 	                target="_blank"
 	                rel="noopener noreferrer"
-	                style={{color: this.props.colors.backgroundColor}}>
+	                style={{color: this.props.colors.color_1}}>
 	                <FontAwesome name="fa-instagram" className="fa fa-instagram" aria-hidden="true"/>
 	              </a>
 	        </div>
