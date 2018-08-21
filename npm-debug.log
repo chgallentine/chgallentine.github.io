@@ -5,14 +5,14 @@
 4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
 5 info lifecycle charliegallentine@0.1.0~predeploy: charliegallentine@0.1.0
 6 verbose lifecycle charliegallentine@0.1.0~predeploy: unsafe-perm in lifecycle true
-7 verbose lifecycle charliegallentine@0.1.0~predeploy: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/charliegallentine/Documents/charliegallentine_dev/source_code/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:~/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/b‌​in
-8 verbose lifecycle charliegallentine@0.1.0~predeploy: CWD: /Users/charliegallentine/Documents/charliegallentine_dev/source_code
+7 verbose lifecycle charliegallentine@0.1.0~predeploy: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/charliegallentine/Documents/charliegallentine/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:~/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/b‌​in
+8 verbose lifecycle charliegallentine@0.1.0~predeploy: CWD: /Users/charliegallentine/Documents/charliegallentine
 9 silly lifecycle charliegallentine@0.1.0~predeploy: Args: [ '-c', 'npm run build' ]
 10 silly lifecycle charliegallentine@0.1.0~predeploy: Returned: code: 0  signal: null
 11 info lifecycle charliegallentine@0.1.0~deploy: charliegallentine@0.1.0
 12 verbose lifecycle charliegallentine@0.1.0~deploy: unsafe-perm in lifecycle true
-13 verbose lifecycle charliegallentine@0.1.0~deploy: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/charliegallentine/Documents/charliegallentine_dev/source_code/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:~/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/b‌​in
-14 verbose lifecycle charliegallentine@0.1.0~deploy: CWD: /Users/charliegallentine/Documents/charliegallentine_dev/source_code
+13 verbose lifecycle charliegallentine@0.1.0~deploy: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/charliegallentine/Documents/charliegallentine/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:~/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/b‌​in
+14 verbose lifecycle charliegallentine@0.1.0~deploy: CWD: /Users/charliegallentine/Documents/charliegallentine
 15 silly lifecycle charliegallentine@0.1.0~deploy: Args: [ '-c', 'gh-pages -d build' ]
 16 silly lifecycle charliegallentine@0.1.0~deploy: Returned: code: 1  signal: null
 17 info lifecycle charliegallentine@0.1.0~deploy: Failed to exec deploy script
@@ -27,7 +27,7 @@
 18 verbose stack     at maybeClose (internal/child_process.js:891:16)
 18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 19 verbose pkgid charliegallentine@0.1.0
-20 verbose cwd /Users/charliegallentine/Documents/charliegallentine_dev/source_code
+20 verbose cwd /Users/charliegallentine/Documents/charliegallentine
 21 error Darwin 17.7.0
 22 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "deploy"
 23 error node v6.11.2
