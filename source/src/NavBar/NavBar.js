@@ -2,16 +2,17 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:30:01
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-07-26 20:33:28
+* @Last Modified time: 2018-08-21 14:14:20
 */
-import React, { Component } from 'react';
+import React from 'react';
 import './NavBar.css';
 
 export default class NavBar extends React.Component {
+	/*
 	constructor(props) {
 		super(props);
 	}
-
+	*/
 	render() {
 		return (
 			<nav>

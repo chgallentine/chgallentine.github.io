@@ -1,7 +1,6 @@
 /*jshint esversion:6*/
 
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import projects from "./projects.js";
@@ -27,7 +26,6 @@ class App extends Component {
     };
 
     this.handleSetColor = this.handleSetColor.bind(this);
-    this.handleSetColor;
   }
 
   componentWillMount() {
