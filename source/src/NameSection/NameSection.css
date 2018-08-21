@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:41:33
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-08-20 16:54:36
+* @Last Modified time: 2018-07-26 20:27:08
 */
 /*
   ------------------------------------------
@@ -85,6 +85,10 @@
   width: 60%;
 }
 
+.name_link:hover {
+  transform: scale(1.5);
+  transition: 0.4s;
+}
 
 .links {
   align-self: flex-end;
@@ -92,6 +96,10 @@
   flex-direction: column;
   justify-content: space-around;    
   width: 100%
+}
+
+.scrollLink:hover > .scrollLink-content {
+  transform: scale(1.5);
 }
 
 
@@ -156,18 +164,12 @@
     width: 65%;
   }
 
-  .name_link:hover {
-    transform: scale(1.5);
-    transition: 0.4s;
-  }
-
-
   .media-link {
     font-size: 6em;
   }
-
-  .scrollLink:hover > .scrollLink-content {
-    transform: scale(1.5);
-  }
 }
+
+
+
+
 

@@ -2,17 +2,16 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:41:27
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-08-21 14:15:19
+* @Last Modified time: 2018-08-14 09:06:31
 */
-import React from 'react';
+import React, { Component } from 'react';
 import './NameSection.css';
 
 export default class NameSection extends React.Component {
-	/*
 	constructor(props) {
 		super(props);
 	}
-	*/
+
 	render() {
 		return (
 			<div id="name_section">
