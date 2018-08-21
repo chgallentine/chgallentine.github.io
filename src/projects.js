@@ -10,7 +10,7 @@ const projects = {
 		{
 			"name": "CUHackit",
 			"image": "/cuhackit.png",
-			"alt": "CUHackit"
+			"alt": "CUHackit",
 			"link": "https://cuhack.it",
 			"description": "I have done work for the web design team for CUHackit, a hackathon hosted by Clemson University",
 		},

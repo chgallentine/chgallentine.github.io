@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-25 21:30:18
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-08-21 14:58:10
+* @Last Modified time: 2018-08-21 15:03:16
 */
 import React, { Component } from 'react';
 import './ProjectSection.css';
@@ -48,7 +48,7 @@ export default class ProjectSection extends React.Component {
 					this.props.projects.map(function(current, index) {
 					  return <div className="project" key="index">
 					    <div className="project_thumbnail">
-					      <img src={current.image} alt={current.alt}/>
+					      <img src={current.image} alt={current.alt} target="_blank"/>
 					      <h1 style={{color: this.props.colors.color_1}}>{current.name}</h1>  
 					    </div>
 					    <div className="project_description">
