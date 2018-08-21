@@ -2,16 +2,18 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:46:34
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-08-20 16:55:23
+* @Last Modified time: 2018-08-21 18:24:38
 */
-import React, { Component } from 'react';
+import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import './ContactSection.css';
 
 export default class ContactSection extends React.Component {
+	/*
 	constructor(props) {
 		super(props);
 	}
+	*/
 
 	render() {
 		return (

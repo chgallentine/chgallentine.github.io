@@ -2,19 +2,21 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-24 21:30:01
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-07-26 20:33:28
+* @Last Modified time: 2018-08-21 18:23:01
 */
-import React, { Component } from 'react';
+import React from 'react';
 import './NavBar.css';
 
 export default class NavBar extends React.Component {
+	/*
 	constructor(props) {
 		super(props);
 	}
+	*/
 
 	render() {
 		return (
-			<nav>
+			<nav style={{backgroundColor: this.props.colors.backgroundColor}}>
 	            <a 
 	                 href="#home-page" 
 	                 className="scrollLink"
