@@ -21,7 +21,7 @@ class App extends Component {
         color_1: "#EC2140",
         color_2: "#0E1F13",
       },
-      resume_href: "#",
+      resume_href: "https://github.com/chgallentine/Resume/blob/master/Resume.pdf",
       projects: projects,
     };
 
