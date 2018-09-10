@@ -67,7 +67,7 @@ class App extends Component {
         <NavBar colors={this.state.colors}/>
 
         <section id="home-page">
-          <NameSection colors={this.state.colors}/>
+          <NameSection colors={this.state.colors} resume_href={this.state.resume_href}/>
         </section>
 
         <section id="projects">
