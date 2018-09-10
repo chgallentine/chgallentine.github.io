@@ -1,0 +1,49 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2018-07-25 21:30:26
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2018-08-21 14:59:36
+*/
+
+#projects {
+	display: none;
+}
+
+@media screen and (min-width: 720px) {
+	#projects {
+		display: block;
+	}
+
+  	.project_list {
+	  display: flex;
+	  justify-content: space-around;
+	}
+
+	.project {
+		border-radius: 10px;
+		background-color: #555;
+		box-shadow: 4px 4px 5px #333;
+		display: flex;
+		justify-content: center;
+	}
+
+	.project_description {
+	  display: none;
+	  padding-right: 20px;
+	  width: 200px;
+	}
+
+	.project_thumbnail {
+		max-height: 400px;
+		padding: 20px;
+	}
+
+	img {
+		height: 300px;
+	}
+
+	.project_links {
+		font-size: 28px;
+		text-decoration: underline;
+	}
+}
