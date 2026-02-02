@@ -1,18 +1,12 @@
 # Skills
-- skill: Systems Design, Integration & Troubleshooting
-  description: Design and diagnose complex electromechanical, fluidic, and robotic systems using first-principles analysis and rapid iteration. Comfortable taking unfamiliar systems apart, identifying root causes, and driving practical fixes from concept through validation.
+# Organizational leadership
+- skill: Organizational leadership
+  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-- skill: Modeling, Prototyping & Testing
-  description: Develop analytical and numerical models of discrete and continuum systems to guide design decisions. Design hardware using CAD/CAM workflows, additive and subtractive manufacturing, and hands-on experimental methods. Plan and execute experiments, analyze performance data, and iterate designs with reliability and repeatability in mind.
+# Communications strategy
+- skill: Communications strategy
+  description: Content and marketing strategy,
 
-- skill: Controls, Computation & Embedded Systems
-  description: Implement embedded and desktop software in MATLAB/Simulink, C/C++, and Python for modeling, sensing, actuation, and closed-loop control. Experience with linear and nonlinear control, hardware-in-the-loop (HITL) testing, and integration of sensors, motors, and controllers. 
-
-- skill: Mechanical & Manufacturing Engineering
-  description: Design novel electromechanical, fluidic, and textile-based devices from blank-sheet concepts through characterization and documentation. Apply GD&T (ASME Y14.5), design for manufacturability, and optimization for CNC machining, conventional fabrication, and additive processes.
-
-- skill: Communication, Teaching & Leadership
-  description: Communicate technical ideas clearly through written documentation, publications, and presentations to both technical and non-technical audiences. Teach, mentor, and collaborate with teams spanning multiple disciplines and experience levels. Produce clear engineering drawings, test reports, and process documentation to support team execution.
-
-- skill: "Tools & Languages:"
-  description: MATLAB/Simulink, Python, C/C++, embedded C, FPGA, microcontrollers (MSP430), SolidWorks, Inventor, Fusion 360, Onshape, PCB design, test automation, hardware validation
+# Digital content development and creation
+- skill: Digital content development and creation
+  description: Copy writing, graphic design, web design, front-end web development, print design
