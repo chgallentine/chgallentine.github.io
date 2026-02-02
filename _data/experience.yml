@@ -1,19 +1,39 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Research Associate
+- company: C* Laboratory 
+  position: Research Associate
+  duration: Aug, 2020 &mdash; All degree requirements completed January 2026
+  summary: > 
+    Self-driven research on fluidic actuation components, (pumps, valves, actuators) for soft robotic actuation from blank-sheet through full validation.
+    <ul class="resume-item-list">
+    <li>Owned end-to-end design and validation of compact fluidic power and control mechanisms, balancing performance, manufacturability, and experimental reliability from concept through tested hardware.</li>
+    <li>Applied linear and nonlinear control to dynamic systems using simulation and physical testing, resolving stability, integration, and feedback control issues.</li>
+    <li>Led and coordinated a 20-person, multi-institution team, setting technical direction and integrating contributions into cohesive, working systems.</li>
+    <li>Delivered fully integrated, experimentally validated fluidic subsystems used as the basis for published designs and follow-on development.</li>
+    </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
 
+# Head robotics Coach
+- company: St. Cecilia Academy
+  position: Head Robotics Teacher 
+  duration:  Jan, 2022 &mdash; Present
+  summary: > 
+    Teaching position responsible for technical instruction & volunteer coordination for Tennessee's only all-female FIRST Tech Challenge robotics team.
+    <ul class="resume-item-list">
+    <li>Taught robotics, mechanism design, systems thinking, and embedded programming using the FIRST Tech Challenge (FTC) platform and Java programming language.</li>
+    <li>Developed leadership skills through classroom instruction while managing and coordinating a team of five volunteer mentors, school administration, and parental engagement.</li>
+    <li>Designed, adapted, and delivered a comprehensive high‑school robotics curriculum  to meet diverse student skill levels, fostering technical confidence and problem‑solving ability.</li>
+    </ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Software Engineering Intern
+- company: Honeybee Robotics, Flight Systems Group
+  position: Software Engineering Intern
+  duration:  "Summer: 2018, 2019"
+  summary: > 
+    Summer engineering intern with a primary focus on algorithm development for FPGA-based signal conditioning.
+    <ul class="resume-item-list">
+    <li>Designed and implemented FPGA-based digital and analog TTL hardware for quadrature interpolation, improving control resolution in reaction-wheel mechanisms under spaceflight constraints.</li>
+    <li>Delivered embedded and desktop software in MATLAB, C/C++, and Python, collaborating with multidisciplinary teams to support development and testing of spaceflight motion-control systems.</li>
+    <li>Developed embedded firmware in C on an MSP430 microcontroller to support real-time systems, automate testing, and improve hardware validation repeatability.</li>
+    <li>Designed circuit schematics and PCB layouts, then executed testing and validation to verify performance against technical requirements.</li>
+    </ul>
