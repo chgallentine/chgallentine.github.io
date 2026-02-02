@@ -53,7 +53,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Professional Experience</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -122,7 +122,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -195,6 +195,26 @@
       <!-- end Interests -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Selected Technical Works & Publications</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for publication in site.data.publications %}
+            <li><a href={{ publication.url }} itemprop="url">{{ publication.title }}</a> - {{publication.status}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests -->
+      {% endif %}
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -215,6 +235,7 @@
       <!-- end Links -->
       {% endif %}
 
+
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
@@ -232,8 +253,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line"><a href="www.linkedin.com/in/charliegallentine">LinkedIn</a></p>
       </footer>
 
     </div>
